@@ -1,29 +1,70 @@
-# Environments
-.env
-venv/
-vscenv/
-.conda/
-
-# Jupyter
-.ipynb_checkpoints/
-
-
-# Streamlit
-.streamlit/
-
-# Datasets
+# ===============================
+# 🚫 DATASETS (VERY IMPORTANT)
+# ===============================
 train/
 test/
 val/
+dataset/
+data/
+images/
 
-# Model weights
-*.pth
-*.h5
-*.ckpt
-
-# Outputs
-output.png
-
-# Cache
+# ===============================
+# 🚫 VIRTUAL ENVIRONMENTS
+# ===============================
+venv/
+vsenv/
+.env/
+.conda/
+conda_env/
 __pycache__/
 *.pyc
+
+# ===============================
+# 🚫 JUPYTER
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# 🚫 PYTORCH CACHE
+# ===============================
+*.pt
+*.ckpt
+runs/
+lightning_logs/
+
+# Ignore all trained models
+*.pth
+*.pt
+*.ckpt
+
+# ===============================
+# 🚫 STREAMLIT CACHE
+# ===============================
+.streamlit/cache/
+
+# ===============================
+# 🚫 VS CODE
+# ===============================
+.vscode/
+
+# ===============================
+# 🚫 OS FILES
+# ===============================
+Thumbs.db
+.DS_Store
+
+# ===============================
+# 🚫 LOGS & TEMP
+# ===============================
+*.log
+*.tmp
+
+# ===============================
+# 🚫 ZIP / RAR / LARGE FILES
+# ===============================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
