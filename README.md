@@ -69,4 +69,4 @@ This diversity helps the model generalize well to real-world conditions.
 
 1. Clone the repository  
 ```bash
-git clone https://github.com/your-username/wildlife-species-identification.git
+git clone https://github.com/your-username/wildlife-species-identification-using-CNN.git
