@@ -1,28 +1,29 @@
-# Python virtual environments
+# Environments
+.env
 venv/
 vscenv/
-.env/
-
-# Conda environments
 .conda/
-**/.conda/
 
 # Jupyter
 .ipynb_checkpoints/
 
+
 # Streamlit
 .streamlit/
 
-# Python cache
-__pycache__/
-*.pyc
+# Datasets
+train/
+test/
+val/
 
-# PyTorch / ML models
+# Model weights
 *.pth
+*.h5
+*.ckpt
 
-# Images / outputs
+# Outputs
 output.png
 
-# OS junk
-.DS_Store
-Thumbs.db
+# Cache
+__pycache__/
+*.pyc
