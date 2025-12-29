@@ -71,6 +71,25 @@ This diversity helps the model generalize well to real-world conditions.
 ```bash
 git clone https://github.com/your-username/wildlife-species-identification-using-CNN.git
 
+🔹 Step 2: Create a Virtual Environment
+python -m venv venv
+venv\Scripts\activate
+
+🔹 Step 3: Download the Requirements
+pip install -r requirements.txt
+
+🔹 Step 4: Run the streamlit
+
+streamlit run app.py
+
+🔹 Step 5: Use the Application
+After running the command, a browser window will open.
+Upload an image of an animal
+  Click Predict
+The model will display:
+    Predicted species
+    Confidence score
+
 
 ## 🎥 Project Demo
 
